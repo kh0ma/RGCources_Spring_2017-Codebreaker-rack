@@ -1,0 +1,111 @@
+body {
+    background-color: #3d3d3d;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.outside-terminal {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: antiquewhite;
+    font-size: 25px;
+}
+
+.outside-terminal a {
+    color: antiquewhite;
+    text-decoration: none ;
+}
+.outside-terminal a:hover {
+    color:white;
+    text-decoration:none;
+    cursor:pointer;
+}
+
+.terminal-div {
+    background-color: black;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-style: double;
+    border-width: 15px;
+    border-color: #004e11;
+    padding: 10px 20px 10px 20px;
+    height: 460px;
+}
+
+.attempts, .play_again {
+    color: #1ff042;
+    font-family: 'AndaleMono', monospace;
+    text-shadow: 0px 0px 4px #1ff042;
+    margin: 0;
+    padding-left: 25px;
+}
+
+.attempts a, .playing a, .play_again a {
+    color: #1ff042;
+    text-decoration: underline;
+    text-decoration-style: dotted ;
+    text-decoration-color: #1ff042;
+    font-size: 25px;
+    padding-left: 10px;
+    padding-top: 25px;
+}
+.attempts a:hover, .playing a:hover, .play_again a:hover {
+    color:#1ff042;
+    cursor:pointer;
+    text-decoration: none;
+}
+
+.playing, .playing input {
+    color: #1ff042;
+    font-family: 'AndaleMono', monospace;
+    text-shadow: 0px 0px 4px #1ff042;
+    margin: 0;
+    padding-left: 25px;
+    font-size: 25px;
+}
+
+.playing input {
+    margin-top: 80px;
+}
+
+.terminal {
+    position: absolute;
+    bottom: 0;
+    border: medium;
+}
+.terminal p, .terminal span, .terminal input {
+    color: #1ff042;
+    margin: 0;
+    /*font-size: 1.5vw;*/
+    font-family: 'AndaleMono', monospace;
+    text-shadow: 0px 0px 4px #1ff042;
+    /*white-space: pre;*/
+}
+.terminal input[type='text'], .playing input[type='text'] {
+    background-color: transparent;
+    border: 0;
+}
+.terminal input[type='text']:focus, .playing input[type='text']:focus {
+    outline: none;
+    width: 100%;
+}
+.terminal form, .playing form {
+    display: inline-block;
+    width: 50%;
+}
+
+form {
+    display: inline-block;
+}
+
+.start_from_index {
+    color: #1ff042;
+    text-decoration: underline;
+    text-decoration-style: dotted ;
+    text-decoration-color: #1ff042;
+}
+.start_from_index:hover {
+    color:#1ff042;
+    cursor:pointer;
+    text-decoration: none;
+}

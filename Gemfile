@@ -5,3 +5,4 @@ source "https://rubygems.org"
 gem 'rack'
 gem 'codebreaker', :git => 'https://github.com/kh0ma/RGCources_Spring_2017-Codebreaker'
 ruby '2.4.0'
+gem 'rake'

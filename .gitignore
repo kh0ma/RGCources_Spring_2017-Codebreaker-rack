@@ -98,7 +98,6 @@ build-iPhoneSimulator/
 .idea/
 
 /.yardoc
-/Gemfile.lock
 
 
 # rspec failure tracking
